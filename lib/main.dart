@@ -13,15 +13,7 @@ void main() {
         body: const Center(
           child: AspectRatio(
             aspectRatio: 16 / 9,
-            child: Padding(
-              padding: EdgeInsets.all(8.0),
-              child: Image(
-                fit: BoxFit.fill,
-                image: NetworkImage(
-                  'https://cdn.pixabay.com/photo/2020/01/30/08/18/norway-4804655_960_720.jpg',
-                ),
-              ),
-            ),
+            child: Image(image: AssetImage('images/diamond.png')),
           ),
         ),
       ),
